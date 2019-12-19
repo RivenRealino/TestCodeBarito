@@ -36,7 +36,6 @@ public class Soal2 {
         List<String> Result = new ArrayList<>();
         Result.add(input[0]);
 
-        do{
         for(int ch =0; ch < firstWord.length; ch++){
             tester = Temp;
             //System.out.println("> " + tester);
@@ -78,17 +77,7 @@ public class Soal2 {
                  }
             }    
         }
-            //System.out.println(tester + " - " + input[1]);
-        } while(tester.equals(input[1]));
-//        
-//        for(int i = 0; i < input.length; i++){
-//            System.out.println(input[i]);
-//            boolean resultMaster = dictionaryList.stream().anyMatch(input[i]::equals);
-//                if(resultMaster) {
-//                    System.out.println(input[i] + i);
-//                }
-//        }
-//						  }
+					
         System.out.println(Result);
         
         return Result;
